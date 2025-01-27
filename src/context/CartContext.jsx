@@ -26,9 +26,8 @@ export const CartProvider = ({ children }) => {
       );
     } else {
       setCartItems((prevItems) => [...prevItems, { ...item, quantity: 1 }]);
-    }
-
-    setCartCount(cartItems.length + 1); 
+      setCartCount(cartItems.length + 1); 
+    } 
   };
 
   // 4. Remove item from cart
