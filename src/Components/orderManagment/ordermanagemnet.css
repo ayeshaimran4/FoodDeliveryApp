@@ -1,0 +1,22 @@
+.orders-sectionn{
+      text-align: left;
+    }
+    .order-itemm {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .order-itemm select {
+      margin-left: 10px;
+    }
+    .dropdown{
+        font-style: italic;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }

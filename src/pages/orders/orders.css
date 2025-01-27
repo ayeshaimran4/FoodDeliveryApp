@@ -1,0 +1,70 @@
+
+.order-container{
+    padding:50px;
+    width:60%;
+    margin: 0px auto;
+}
+
+.order-head{
+    text-align: center;
+}
+
+.order-item {
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid #ff6743;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .order-item h2 {
+    font-size: 15px;
+    text-decoration:solid;
+  }
+  
+  .order-item p {
+    font-size: 14px;
+  }
+
+  .para1{
+    font-style: italic;
+  }
+  .para2{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    color:darkred;
+  }
+  
+  .status1{
+    font-style: italic;
+  }
+.order-btn {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-btn:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  .btn-submit-review{
+    font-size: large;
+    font-weight:bolder;
+    color:#e2421f;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px; /* Adjust distance from the bottom */
+    right: 50px; 
+  }

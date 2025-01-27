@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .nav {
+    background-color: #ff6347;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: white; 
+    font-size: 20px; 
+    font-weight: bold;
+    margin: 0 30px; 
+    position: relative; 
+  }
+  
+  .nav-item:hover {
+    color: yellow; 
+  }
+  .bttn{
+    background-color: crimson;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+  .bttn:hover{
+    background-color: darkred;
+  }
+  .cart-badge {
+    background-color: crimson;  /* Badge color */
+    color: white;  /* Text color */
+    border-radius: 50%;  /* Circular shape */
+    padding: 0.2em 0.5em;  /* Small padding */
+    font-size: 1rem;  /* Font size */
+    font-weight: bold;  /* Text weight */
+    position: absolute;  /* Position relative to the parent element */
+    top: -15px;  /* Adjust distance from the top */
+    right: -30px;  /* Adjust distance from the right */
+    min-width: 20px;  /* Minimum width to make it round */
+    height: 20px;  /* Height to make it round */
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Center the text inside the badge */
+  }
+  
+  

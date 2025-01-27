@@ -1,0 +1,42 @@
+.menu-container {
+  text-align: center;
+  padding: 15px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.menu-item {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ff6347;
+  text-align: center;
+  padding: 30px;
+  background-color:whitesmoke ;
+}
+.menu-item button {
+  background-color: #ff6347;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+.menu-item button:hover {
+  background-color: crimson;
+}
+.menu-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+.menu-image item1 {
+  height: max-content;
+}
+.pizza{
+text-align: left;
+color:darkred;
+}

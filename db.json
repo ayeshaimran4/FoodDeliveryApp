@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin4321",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user01",
+      "password": "user4321",
+      "role": "user"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": 1,
+          "name": "Cheese Burger",
+          "description": "A delicious cheese-filled burger.",
+          "price": 650,
+          "image": "item4.png",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 650,
+      "status": "Cancelled",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "id": 1,
+          "name": "Cheese Burger",
+          "description": "A delicious cheese-filled burger.",
+          "price": 650,
+          "image": "item4.png",
+          "quantity": 4
+        }
+      ],
+      "totalAmount": 2600,
+      "status": "Delivered",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "id": 5,
+          "name": "Hot pepper passion",
+          "description": "crispy and tender chicken with balanced spices",
+          "price": 2000,
+          "image": "item5.png",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 2000,
+      "status": "Delivered",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "id": 2,
+          "name": "chicken Pizza",
+          "description": "Classic Italian pizza with fresh basil.",
+          "price": "1500",
+          "image": "item2.png",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "crispy Burger",
+          "description": "crispy and tender chicken with balanced spices",
+          "price": 450,
+          "image": "item3.png",
+          "quantity": 1
+        },
+        {
+          "name": "chipotle hot",
+          "price": "2500",
+          "image": "https://d3ed0bx5qudxt4.cloudfront.net/912025458",
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 4450,
+      "status": "In Progress",
+      "id": 7
+    }
+  ],
+  "menu": [
+    {
+      "id": 2,
+      "name": "chicken Pizza",
+      "description": "Classic Italian pizza with fresh basil.",
+      "price": "1500",
+      "image": "item2.png"
+    },
+    {
+      "id": 3,
+      "name": "American Hot",
+      "description": "Spicy Mexican taco with beef and salsa.",
+      "price": 1500,
+      "image": "item1.png"
+    },
+    {
+      "id": 4,
+      "name": "crispy Burger",
+      "description": "crispy and tender chicken with balanced spices",
+      "price": 450,
+      "image": "item3.png"
+    },
+    {
+      "id": 5,
+      "name": "Hot pepper passion",
+      "description": "crispy and tender chicken with balanced spices",
+      "price": 2000,
+      "image": "item5.png"
+    },
+    {
+      "name": "chipotle hot",
+      "price": "2500",
+      "image": "https://d3ed0bx5qudxt4.cloudfront.net/912025458",
+      "id": 6
+    }
+  ],
+  "reviews": [
+    {
+      "type": "Review",
+      "message": "the food was yumm",
+      "id": 1
+    },
+    {
+      "type": "Complaint",
+      "message": "the food wasn't fresh😐",
+      "id": 2
+    }
+  ]
+}
